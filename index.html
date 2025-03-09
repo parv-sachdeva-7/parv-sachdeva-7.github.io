@@ -3,10 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Parv Sachdeva</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            background-color: #fff;
+            color: #000;
+        }
+        .content {
+            padding: 20px;
+            max-width: 800px;
+        }
+        nav {
+            width: 200px;
+            padding: 20px;
+            position: fixed;
+            right: 0;
+            top: 0;
+            height: 100vh;
+            border-left: 1px solid #ddd;
+            text-align: right;
+        }
+        nav a {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: black;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is my first GitHub Pages site!</p>
+    <div class="content">
+        <section id="about">
+            <h2>About</h2>
+            <p>Brief introduction about yourself.</p>
+        </section>
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>Details about your experience and skills.</p>
+        </section>
+        <section id="poetry">
+            <h2>Poetry</h2>
+            <p>Your poetry collection or links to your work.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Details about your projects.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>How people can reach you.</p>
+        </section>
+    </div>
+    <nav>
+        <h2>Parv Sachdeva</h2>
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#poetry">Poetry</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </body>
 </html>
