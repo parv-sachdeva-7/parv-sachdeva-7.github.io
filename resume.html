@@ -46,6 +46,24 @@
         .resume-text {
             font-size: 14px; /* Smaller font size for the resume link text */
         }
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+        }
+        nav {
+            position: relative;
+            width: 100%;
+            height: auto;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+            border-left: none;
+        }
+
+        .content {
+            margin-left: 0;
+            padding: 20px;
+        }
+    }
     </style>
 </head>
 <body>
