@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Poetry - Parv Sachdeva</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      font-size: 14px; /* Small font like the other pages */
+      margin: 0;
+      padding: 0;
+      display: flex;
+      background-color: #fff;
+      color: #000;
+    }
+    nav {
+      width: 200px;
+      padding: 20px;
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 100vh;
+      text-align: right;
+      font-size: 14px;
+      /* Removed vertical line */
+    }
+    nav a {
+      display: block;
+      margin-bottom: 10px;
+      text-decoration: underline;
+      color: #569CD6;
+      line-height: 1.4;
+    }
+    nav div {
+      margin-bottom: 20px;
+      color: #000;
+    }
+    .content {
+      margin-left: 250px;
+      padding: 20px;
+      max-width: 800px;
+    }
+    .content a {
+      color: #569CD6;
+      text-decoration: none;
+    }
+
+    /* Mobile-friendly layout */
+    @media (max-width: 768px) {
+      body {
+        flex-direction: column;
+      }
+      nav {
+        position: relative;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        border-left: none;
+      }
+      .content {
+        margin-left: 0;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div>Parv Sachdeva</div>
+    <a href="about.html">About</a>
+    <a href="resume.html">Resume</a>
+    <a href="poetry.html">Poetry</a>
+    <a href="finance & economics.html">Finance &<br>Economics</a>
+    <a href="climate.html">Climate</a>
+    <a href="bookshelf.html">Bookshelf</a>
+    <a href="questions.html">Questions</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="content">
+    <p>One of my favourite poems of all time is <a href="https://www.poetryfoundation.org/poems/51642/invictus" target="_blank">Invictus</a>, by William Ernest Henley</p>
+  </div>
+</body>
+</html>
