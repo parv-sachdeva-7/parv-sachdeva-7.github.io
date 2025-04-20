@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Parv Sachdeva</title>
+    <title>Resume - Parv Sachdeva</title>
     <style>
         body {
             font-family: Georgia, serif;
+            font-size: 16px; /* Consistent font size with other pages */
             margin: 0;
             padding: 0;
             display: flex;
@@ -27,16 +28,23 @@
             display: block;
             margin-bottom: 10px;
             text-decoration: underline;
-            color: #569CD6;
+            color: #569CD6; /* VS Code blue for links */
             line-height: 1.4;
         }
         nav div {
             margin-bottom: 20px;
+            color: #000; /* Keep name black */
         }
         .content {
-            margin-left: 250px; /* Indent content slightly to the right */
+            margin-left: 250px;
             padding: 20px;
             max-width: 800px;
+        }
+        .content a {
+            color: #569CD6; /* Ensure links are in VS Code blue */
+        }
+        .resume-text {
+            font-size: 14px; /* Smaller font size for the resume link text */
         }
     </style>
 </head>
@@ -51,7 +59,9 @@
     </nav>
 
     <div class="content">
-        <!-- No headings, just content -->
+        <p class="resume-text">Here's a pdf version of my 
+            <a href="assets/Parv_Sachdeva_Resume_2025.pdf" target="_blank">resume</a>.
+        </p>
     </div>
 </body>
 </html>
